@@ -1,3 +1,68 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
 .DS_Store
-.DS_Store
+\#auto_saved_files\#
+main-jlcpcb/
+panel-jlcpcb/
+production/
+panel2-jlcpcb/
+208_RADIO_CARD_BACKPANEL.kicad_pro
+208_RADIO_CARD_FRONTPANEL
+208_RADIO_CARD_BACKPANEL.kicad_pcb
+208_RADIO_CARD_FRONTPANEL.kicad_pcb
+208_RADIO_CARD_FRONTPANEL.kicad_pcb
+fp-info-cache*
+jlcpcb/gerber/208_RADIO_CARD-CuBottom.gbr
+jlcpcb/gerber/208_RADIO_CARD-CuTop.gbr
+jlcpcb/gerber/208_RADIO_CARD-EdgeCuts.gbr
+jlcpcb/gerber/208_RADIO_CARD-MaskBottom.gbr
+jlcpcb/gerber/208_RADIO_CARD-MaskTop.gbr
+jlcpcb/gerber/208_RADIO_CARD-NPTH-drl_map.pdf
+jlcpcb/gerber/208_RADIO_CARD-NPTH.drl
+jlcpcb/gerber/208_RADIO_CARD-PasteBottom.gbr
+jlcpcb/gerber/208_RADIO_CARD-PasteTop.gbr
+jlcpcb/gerber/208_RADIO_CARD-PTH-drl_map.pdf
+jlcpcb/gerber/208_RADIO_CARD-PTH.drl
+jlcpcb/gerber/208_RADIO_CARD-SilkBottom.gbr
+jlcpcb/gerber/208_RADIO_CARD-SilkTop.gbr
+jlcpcb/gerber/208_RADIO_CARD-VScore.gbr
+jlcpcb/gerber/GERBER-208_RADIO_CARD.zip
+jlcpcb/project.db
+*.gbr
+main_gerber/
+main-jlcpcb/
+jlcpcb-main/
+jlcpcb-panel/
+*.icloud
+*.zip
+*.gbr
+*.drl
+*jlcpcb/
+Board2Pdf/
